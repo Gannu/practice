@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/estest/estest.iml" filepath="$PROJECT_DIR$/estest/estest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estest/estest-grailsPlugins.iml" filepath="$PROJECT_DIR$/estest/estest-grailsPlugins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estestcommon/estestcommon.iml" filepath="$PROJECT_DIR$/estestcommon/estestcommon.iml" />
+    </modules>
+  </component>
+</project>
+
