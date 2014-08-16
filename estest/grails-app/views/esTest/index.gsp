@@ -70,8 +70,8 @@
     <g:remoteLink controller="esTest" action="renderString"
                   update="mainContent" params="[report:'author']">Render String</g:remoteLink><br/>
 
-    <g:remoteLink controller="simple" action="renderPage"
-                  update="mainContent">Render Page</g:remoteLink><br/>
+    <g:remoteLink controller="esTest" action="renderString"
+                  update="mainContent" params="[report:'copies']">Render Page</g:remoteLink><br/>
 
     <g:remoteLink controller="simple" action="renderView"
                   update="mainContent">Render View</g:remoteLink><br/>

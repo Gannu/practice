@@ -18,6 +18,7 @@ class EsTestController {
         render  data  as String
     }
     def configureParam(){
+        println "params = $params"
         report=params.get("report");
         println "report = $report"
     };
