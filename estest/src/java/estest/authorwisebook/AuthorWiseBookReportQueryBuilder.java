@@ -1,6 +1,7 @@
-package estest;
+package estest.authorwisebook;
 
 import com.softech.estestcommon.FilterUtils;
+import estest.SuperQueryBuilder;
 import org.elasticsearch.action.search.MultiSearchRequestBuilder;
 import org.elasticsearch.action.search.SearchRequestBuilder;
 import org.elasticsearch.action.search.SearchResponse;
@@ -23,7 +24,7 @@ import java.util.Set;
  * Time: 5:25 PM
  * To change this template use File | Settings | File Templates.
  */
-public  class AuthorWiseBookReportQueryBuilder extends SuperQueryBuilder{
+public  class AuthorWiseBookReportQueryBuilder extends SuperQueryBuilder {
 
     org.slf4j.Logger logger = LoggerFactory.getLogger(AuthorWiseBookReportQueryBuilder.class);
 

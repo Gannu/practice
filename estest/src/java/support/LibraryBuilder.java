@@ -1,6 +1,6 @@
 package support;
 
-import estest.AuthorWiseBookReportQueryBuilder;
+import estest.authorwisebook.AuthorWiseBookReportQueryBuilder;
 import estest.PriceWiseBookBuilder;
 import estest.SuperQueryBuilder;
 

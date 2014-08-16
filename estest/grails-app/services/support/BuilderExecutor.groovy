@@ -1,6 +1,6 @@
 package support
 
-import estest.AuthorWiseBookReportActionListener
+import estest.authorwisebook.AuthorWiseBookReportActionListener
 import org.elasticsearch.action.ActionRequestBuilder
 
 /**
