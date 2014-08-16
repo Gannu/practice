@@ -71,16 +71,7 @@
                   update="mainContent" params="[report:'author']">Render String</g:remoteLink><br/>
 
     <g:remoteLink controller="esTest" action="renderString"
-                  update="mainContent" params="[report:'copies']">Render Page</g:remoteLink><br/>
-
-    <g:remoteLink controller="simple" action="renderView"
-                  update="mainContent">Render View</g:remoteLink><br/>
-
-    <g:remoteLink controller="simple" action="renderTemplate"
-                  update="mainContent">Render Template</g:remoteLink><br/>
-
-    <g:remoteLink controller="simple" action="withIdParam" id="${theID}"
-                  update="mainContent">With ID Parameter</g:remoteLink><br/>
+                  update="mainContent" params="[report:'copies',theID:'10']">Render Page</g:remoteLink><br/>
 
     <g:remoteLink controller="simple" action="withCustomParam"
                   params="${[a:firstNumber, b:secondNumber]}"
